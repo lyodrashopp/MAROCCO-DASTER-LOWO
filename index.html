@@ -118,10 +118,6 @@
                 </div>
                 <div class="mt-8 flex items-center">
                     <div class="flex -space-x-2">
-                        <img src="https://randomuser.me/api/portraits/women/1.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
-                        <img src="https://randomuser.me/api/portraits/women/2.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
-                        <img src="https://randomuser.me/api/portraits/women/3.jpg" class="w-10 h-10 rounded-full border-2 border-white" alt="Customer">
-                    </div>
                     <div class="ml-4">
                         <div class="flex items-center">
                             <div class="flex text-yellow-400">
@@ -510,9 +506,11 @@
                                 <li class="flex items-start">
                                     <div class="bg-blue-100 text-blue-900 p-1 rounded-full mr-3">
                                         <i class="fas fa-check text-xs"></i>
-                                         <span>Diskon 30% dari harga normal Rp 235.000</span>
-                               </div>
-                                    <span>Diskon 30% dari harga normal Rp 235.000</span>                          
+                                    </div>
+                                    <span>Diskon 30% dari harga normal Rp 235.000</span>
+                                </li>
+                            </ul>
+                            
                             <div class="bg-blue-50 rounded-lg p-6 mb-6">
                                 <div class="flex justify-between items-center mb-2">
                                     <span class="font-semibold">Harga Normal:</span>
@@ -610,77 +608,11 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-16 bg-gray-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-blue-900 mb-4">Pertanyaan <span class="gold-text">Yang Sering Diajukan</span></h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Temukan jawaban atas pertanyaan umum seputar produk kami</p>
-            </div>
-            
-            <div class="max-w-3xl mx-auto">
-                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
-                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
-                        <span class="font-semibold text-blue-900">Apakah bahan daster ini benar-benar adem?</span>
-                        <i class="fas fa-chevron-down text-blue-500 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content px-6 pb-6 hidden">
-                        <p class="text-gray-600">Ya, MAROCCO DASTER LOWO menggunakan bahan rayon import premium yang terkenal sangat adem dan nyaman dipakai. Bahan ini memiliki sirkulasi udara yang baik sehingga cocok untuk iklim tropis seperti Indonesia.</p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
-                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
-                        <span class="font-semibold text-blue-900">Berapa lama waktu pengiriman?</span>
-                        <i class="fas fa-chevron-down text-blue-500 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content px-6 pb-6 hidden">
-                        <p class="text-gray-600">Waktu pengiriman bervariasi tergantung lokasi Anda. Untuk Jabodetabek biasanya 1-2 hari kerja, Jawa 2-3 hari kerja, dan luar Jawa 3-5 hari kerja. Kami menggunakan ekspedisi terpercaya seperti JNE, J&T, dan SiCepat.</p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
-                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
-                        <span class="font-semibold text-blue-900">Bagaimana cara perawatan daster ini?</span>
-                        <i class="fas fa-chevron-down text-blue-500 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content px-6 pb-6 hidden">
-                        <p class="text-gray-600">Kami merekomendasikan:
-                        <ul class="list-disc pl-5 mt-2 space-y-1">
-                            <li>Mencuci dengan tangan atau mesin dengan mode lembut</li>
-                            <li>Gunakan detergen yang lembut</li>
-                            <li>Hindari penggunaan pemutih</li>
-                            <li>Jemur di tempat teduh</li>
-                            <li>Setrika dengan suhu rendah</li>
-                        </ul>
-                        </p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-xl shadow-md overflow-hidden mb-4">
-                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
-                        <span class="font-semibold text-blue-900">Apakah ada ukuran lainnya?</span>
-                        <i class="fas fa-chevron-down text-blue-500 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content px-6 pb-6 hidden">
-                        <p class="text-gray-600">Saat ini kami hanya menyediakan one size-fit-all yang cocok untuk berbagai postur tubuh wanita dengan berat maksimal 90KG. Ukuran ini sudah kami uji dan nyaman dipakai oleh mayoritas pelanggan kami.</p>
-                    </div>
-                </div>
-                
-                <div class="bg-white rounded-xl shadow-md overflow-hidden">
-                    <button class="faq-toggle w-full text-left p-6 flex justify-between items-center">
-                        <span class="font-semibold text-blue-900">Bagaimana jika produk tidak sesuai?</span>
-                        <i class="fas fa-chevron-down text-blue-500 transition-transform duration-300"></i>
-                    </button>
-                    <div class="faq-content px-6 pb-6 hidden">
-                        <p class="text-gray-600">Kami memberikan garansi kepuasan 7 hari. Jika produk tidak sesuai dengan deskripsi atau ada cacat produksi, Anda bisa mengembalikan produk dan kami akan mengembalikan uang Anda 100%. Silakan hubungi customer service kami untuk proses pengembalian.</p>
-                    </div>
-                </div>
             </div>
         </div>
-    </section>
+    </footer>
 
-    <!-- Footer -->
-<!-- Floating WhatsApp Button -->
+    <!-- Floating WhatsApp Button -->
 
     <script>
         // Countdown Timer
